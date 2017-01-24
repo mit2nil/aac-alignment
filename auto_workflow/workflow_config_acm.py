@@ -18,9 +18,75 @@ REPO_CONFIG = [
        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
        'context_uri': context_uri,
        'model_file': 'acm-artist-model.ttl',
-       'input_file': 'acm-artist.xml',
+       'input_file': 'acm-artist1.xml',
        'input_file_type': 'xml',
-       'output_file_name': 'acm-artist'
+       'output_file_name': 'acm-artist1'
+   },
+   {
+       'path': repo_path,
+       'name': 'acm-artist',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+       'context_uri': context_uri,
+       'model_file': 'acm-artist-model.ttl',
+       'input_file': 'acm-artist2.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-artist2'
+   },
+   {
+       'path': repo_path,
+       'name': 'acm-artist',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+       'context_uri': context_uri,
+       'model_file': 'acm-artist-model.ttl',
+       'input_file': 'acm-artist3.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-artist3'
+   },
+   {
+       'path': repo_path,
+       'name': 'acm-artist',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+       'context_uri': context_uri,
+       'model_file': 'acm-artist-model.ttl',
+       'input_file': 'acm-artist4.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-artist4'
+   },
+   {
+       'path': repo_path,
+       'name': 'acm-artist',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+       'context_uri': context_uri,
+       'model_file': 'acm-artist-model.ttl',
+       'input_file': 'acm-artist5.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-artist5'
+   },
+   {
+       'path': repo_path,
+       'name': 'acm-artist',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+       'context_uri': context_uri,
+       'model_file': 'acm-artist-model.ttl',
+       'input_file': 'acm-artist6.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-artist6'
+   },
+   {
+       'path': repo_path,
+       'name': 'acm-artist',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+       'context_uri': context_uri,
+       'model_file': 'acm-artist-model.ttl',
+       'input_file': 'acm-artist7.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-artist7'
    },
    {
        'path': repo_path,
