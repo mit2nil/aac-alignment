@@ -95,9 +95,75 @@ REPO_CONFIG = [
        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
        'context_uri': context_uri,
        'model_file': 'acm-objects-model.ttl',
-       'input_file': 'acm-objects.xml',
+       'input_file': 'acm-objects1.xml',
        'input_file_type': 'xml',
-       'output_file_name': 'acm-objects'
+       'output_file_name': 'acm-objects1'
+   },
+      {
+       'path': repo_path,
+       'name': 'acm-objects',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+       'context_uri': context_uri,
+       'model_file': 'acm-objects-model.ttl',
+       'input_file': 'acm-objects2.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-objects2'
+   },
+      {
+       'path': repo_path,
+       'name': 'acm-objects',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+       'context_uri': context_uri,
+       'model_file': 'acm-objects-model.ttl',
+       'input_file': 'acm-objects3.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-objects3'
+   },
+      {
+       'path': repo_path,
+       'name': 'acm-objects',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+       'context_uri': context_uri,
+       'model_file': 'acm-objects-model.ttl',
+       'input_file': 'acm-objects4.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-objects4'
+   },
+      {
+       'path': repo_path,
+       'name': 'acm-objects',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+       'context_uri': context_uri,
+       'model_file': 'acm-objects-model.ttl',
+       'input_file': 'acm-objects5.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-objects5'
+   },
+      {
+       'path': repo_path,
+       'name': 'acm-objects',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+       'context_uri': context_uri,
+       'model_file': 'acm-objects-model.ttl',
+       'input_file': 'acm-objects6.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-objects6'
+   },
+      {
+       'path': repo_path,
+       'name': 'acm-objects',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+       'context_uri': context_uri,
+       'model_file': 'acm-objects-model.ttl',
+       'input_file': 'acm-objects7.xml',
+       'input_file_type': 'xml',
+       'output_file_name': 'acm-objects7'
    },
 ]
   
