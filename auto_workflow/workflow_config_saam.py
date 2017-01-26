@@ -103,18 +103,18 @@ REPO_CONFIG = [
         'input_file_type': 'csv',
         'output_file_name': 'WebMakers_view',
     },
-    # {
-    #     'path': repo_path,
-    #     'name': 'Objects',
-    #     'base_uri': base_uri,
-    #     'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
-    #     'context_uri': context_uri,
-    #     'model_file': 'WebObjCaption-model.ttl',
-    #     'input_file': 'WebObjCaption.csv_cleaned.csv',
-    #     'input_file_type': 'csv',
-    #     'output_file_name': 'WebObjCaption',
-    #     'num_partitions': 5
-    # },
+    {
+        'path': repo_path,
+        'name': 'Objects',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'WebObjCaption-model.ttl',
+        'input_file': 'WebObjCaption.json',
+        'input_file_type': 'jsonlines',
+        'output_file_name': 'WebObjCaption',
+        'num_partitions': 50
+    },
     {
         'path': repo_path,
         'name': 'Publications',
