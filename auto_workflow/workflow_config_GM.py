@@ -72,9 +72,10 @@ REPO_CONFIG = [
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
         'context_uri': context_uri,
         'model_file': 'Dimensions-model.ttl',
-        'input_file': 'Dimensions_clean.csv',
-        'input_file_type': 'csv',
-        'output_file_name': 'Dimensions'
+        'input_file': 'Dimensions.json',
+        'input_file_type': 'jsonlines',
+        'output_file_name': 'Dimensions',
+        'num_partitions': 50
     },
     {
         'path': repo_path,
@@ -116,9 +117,10 @@ REPO_CONFIG = [
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
         'context_uri': context_uri,
         'model_file': 'Objects-model.ttl',
-        'input_file': 'Objects_clean.csv',
-        'input_file_type': 'csv',
-        'output_file_name': 'Objects'
+        'input_file': 'Objects.json',
+        'input_file_type': 'jsonlines',
+        'output_file_name': 'Objects',
+        'num_partitions': 50
     },
     {
         'path': repo_path,
