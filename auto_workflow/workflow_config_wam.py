@@ -73,18 +73,6 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'WAM_AAC_Constituents',
-        'base_uri': base_uri,
-        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
-        'context_uri': context_uri,
-        'model_file': 'WAM_AAC_Individual_Work-model.ttl',
-        'input_file': 'WAM_XMLExport_AAC_Constituents_V3.xml',
-        'input_file_type': 'xml',
-        'output_file_name': 'WAM_AAC_Individual_Work',
-        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
-    },
-    {
-        'path': repo_path,
         'name': 'WAM_AAC_Dimensions',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
