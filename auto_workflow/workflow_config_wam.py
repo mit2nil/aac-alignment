@@ -25,7 +25,7 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'WAM_AAC_Constituents_institution',
+        'name': 'WAM_AAC_Constituent_institution',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
@@ -37,7 +37,7 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'WAM_AAC_Constituents_individual_death',
+        'name': 'WAM_AAC_Constituent_individual_death',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
@@ -49,7 +49,7 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'WAM_AAC_Constituents_individual_birth',
+        'name': 'WAM_AAC_Constituent_individual_birth',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
