@@ -94,6 +94,17 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
+        'name': 'Artist',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+        'context_uri': context_uri,
+        'model_file': 'WebConstituents_person_view-model.ttl',
+        'input_file': 'WebConstituents_person_view.csv',
+        'input_file_type': 'csv',
+        'output_file_name': 'WebConstituents_person_view'
+    },
+    {
+        'path': repo_path,
         'name': 'Objects',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
