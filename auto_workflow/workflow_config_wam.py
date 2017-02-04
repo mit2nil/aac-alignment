@@ -25,7 +25,7 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'WAM_AAC_Constituent_institution',
+        'name': 'WAM_AAC_Constituents_institution',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
@@ -37,7 +37,7 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'WAM_AAC_Constituent_individual_death',
+        'name': 'WAM_AAC_Constituents_individual_death',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
@@ -49,7 +49,7 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'WAM_AAC_Constituent_individual_birth',
+        'name': 'WAM_AAC_Constituents_individual_birth',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
@@ -73,6 +73,17 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
+        'name': 'WAM_AAC_Culture',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'WAM_AAC_Culture-model.ttl',
+        'input_file': 'WAM_XMLExport_AAC_Constituents_V3.xml',
+        'input_file_type': 'xml',
+        'output_file_name': 'WAM_AAC_Culture',
+    },
+    {
+        'path': repo_path,
         'name': 'WAM_AAC_Dimensions',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
@@ -81,17 +92,6 @@ REPO_CONFIG = [
         'input_file': 'WAM_XMLExport_AAC_Dimensions.xml',
         'input_file_type': 'xml',
         'output_file_name': 'WAM_AAC_Dimensions'
-    },
-    {
-        'path': repo_path,
-        'name': 'WAM_AAC_Exhibitions',
-        'base_uri': base_uri,
-        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
-        'context_uri': context_uri,
-        'model_file': 'WAM_AAC_Exhibitions-model.ttl',
-        'input_file': 'WAM_XMLExport_AAC_Exhibitions.xml',
-        'input_file_type': 'xml',
-        'output_file_name': 'WAM_AAC_Exhibitions'
     },
     {
         'path': repo_path,
@@ -151,5 +151,4 @@ REPO_CONFIG = [
         'output_file_name': 'WAM_AAC_Other_titles',
         'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     }
-
 ]
