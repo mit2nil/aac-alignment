@@ -68,8 +68,7 @@ REPO_CONFIG = [
         'model_file': 'WAM_AAC_Constituents_role-model.ttl',
         'input_file': 'WAM_XMLExport_AAC_Constituents_V3.xml',
         'input_file_type': 'xml',
-        'output_file_name': 'WAM_AAC_Constituents_role',
-        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
+        'output_file_name': 'WAM_AAC_Constituents_role'
     },
     {
         'path': repo_path,
@@ -81,6 +80,7 @@ REPO_CONFIG = [
         'input_file': 'WAM_XMLExport_AAC_Constituents_V3.xml',
         'input_file_type': 'xml',
         'output_file_name': 'WAM_AAC_Culture',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
         'path': repo_path,
