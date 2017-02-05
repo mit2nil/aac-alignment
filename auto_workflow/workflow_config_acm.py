@@ -11,7 +11,7 @@ repo_path = './../../aac-repos/' + repo_name
 base_uri = 'http://data.americanartcollaborative.org/acm/'
 context_uri = 'https://github.com/american-art/aac-alignment/blob/master/karma-context.json'
 REPO_CONFIG = [
-   {
+    {
        'path': repo_path,
        'name': 'acm-artist',
        'base_uri': base_uri,
@@ -21,8 +21,8 @@ REPO_CONFIG = [
        'input_file': 'acm-artist1.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-artist1'
-   },
-   {
+    },
+    {
        'path': repo_path,
        'name': 'acm-artist',
        'base_uri': base_uri,
@@ -32,8 +32,8 @@ REPO_CONFIG = [
        'input_file': 'acm-artist2.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-artist2'
-   },
-   {
+    },
+    {
        'path': repo_path,
        'name': 'acm-artist',
        'base_uri': base_uri,
@@ -98,8 +98,8 @@ REPO_CONFIG = [
        'input_file': 'acm-objects1.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects1'
-   },
-      {
+    },
+    {
        'path': repo_path,
        'name': 'acm-objects',
        'base_uri': base_uri,
@@ -109,8 +109,8 @@ REPO_CONFIG = [
        'input_file': 'acm-objects2.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects2'
-   },
-      {
+    },
+    {
        'path': repo_path,
        'name': 'acm-objects',
        'base_uri': base_uri,
@@ -120,8 +120,8 @@ REPO_CONFIG = [
        'input_file': 'acm-objects3.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects3'
-   },
-      {
+    },
+    {
        'path': repo_path,
        'name': 'acm-objects',
        'base_uri': base_uri,
@@ -131,8 +131,8 @@ REPO_CONFIG = [
        'input_file': 'acm-objects4.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects4'
-   },
-      {
+    },
+    {
        'path': repo_path,
        'name': 'acm-objects',
        'base_uri': base_uri,
@@ -142,8 +142,8 @@ REPO_CONFIG = [
        'input_file': 'acm-objects5.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects5'
-   },
-      {
+    },
+    {
        'path': repo_path,
        'name': 'acm-objects',
        'base_uri': base_uri,
@@ -153,8 +153,8 @@ REPO_CONFIG = [
        'input_file': 'acm-objects6.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects6'
-   },
-      {
+    },
+    {
        'path': repo_path,
        'name': 'acm-objects',
        'base_uri': base_uri,
@@ -164,6 +164,6 @@ REPO_CONFIG = [
        'input_file': 'acm-objects7.xml',
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects7'
-   },
+    },
 ]
   
