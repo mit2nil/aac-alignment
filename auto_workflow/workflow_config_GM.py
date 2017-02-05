@@ -30,7 +30,8 @@ REPO_CONFIG = [
         'model_file': 'Constituents_institutions-model.ttl',
         'input_file': 'Constituents.csv',
         'input_file_type': 'csv',
-        'output_file_name': 'Constituents_institutions'
+        'output_file_name': 'Constituents_institutions',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
         'path': repo_path,
@@ -41,7 +42,8 @@ REPO_CONFIG = [
         'model_file': 'Constituents_people-model.ttl',
         'input_file': 'Constituents.csv',
         'input_file_type': 'csv',
-        'output_file_name': 'Constituents_people'
+        'output_file_name': 'Constituents_people',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
         'path': repo_path,
@@ -120,7 +122,8 @@ REPO_CONFIG = [
         'model_file': 'Other_titles-model.ttl',
         'input_file': 'Titles.csv',
         'input_file_type': 'csv',
-        'output_file_name': 'Other_titles'
+        'output_file_name': 'Other_titles',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
         'path': repo_path,
@@ -131,6 +134,7 @@ REPO_CONFIG = [
         'model_file': 'Titles-model.ttl',
         'input_file': 'Titles.csv',
         'input_file_type': 'csv',
-        'output_file_name': 'Titles'
+        'output_file_name': 'Titles',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
 ]
