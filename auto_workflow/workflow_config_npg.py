@@ -14,7 +14,7 @@ REPO_CONFIG = [
          'path': repo_path,
          'name': 'NPGConAltNames',
          'base_uri': base_uri,
-         'rdf_root_uri': 'http://www.w3.org/2002/07/owl#Thing1',
+         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
          'context_uri': context_uri,
          'model_file': 'NPGConAltNames2-model.ttl',
          'input_file': 'NPGConAltNames2.csv',
