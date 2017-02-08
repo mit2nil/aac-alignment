@@ -74,7 +74,7 @@ REPO_CONFIG = [
         'path': repo_path,
         'name': 'WAM_AAC_Culture',
         'base_uri': base_uri,
-        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
         'model_file': 'WAM_AAC_Culture-model.ttl',
         'input_file': 'WAM_XMLExport_AAC_Constituents_V3.xml',
