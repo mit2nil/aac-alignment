@@ -88,7 +88,19 @@ REPO_CONFIG = [
         'context_uri': context_uri,
         'model_file': 'NPGObjTitles2-model.ttl',
         'input_file': 'NPGObjTitles2.csv',
-        'output_file_name': 'NPGObjTitles2'
+        'output_file_name': 'NPGObjTitles2',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
+    },
+    {
+        'path': repo_path,
+        'name': 'NPGObjAltTitles',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'NPGObjAltTitles2-model.ttl',
+        'input_file': 'NPGObjTitles2.csv',
+        'output_file_name': 'NPGObjAltTitles2',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
         'path': repo_path,
@@ -99,16 +111,6 @@ REPO_CONFIG = [
         'model_file': 'NPGObjURLs-model.ttl',
         'input_file': 'NPGObjURLs.csv',
         'output_file_name': 'NPGObjURLs'
-    },
-    {
-        'path': repo_path,
-        'name': 'NPGObjWebLabels',
-        'base_uri': base_uri,
-        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
-        'context_uri': context_uri,
-        'model_file': 'NPGObjWebLabels2-model.ttl',
-        'input_file': 'NPGObjWebLabels2.csv',
-        'output_file_name': 'NPGObjWebLabels2'
     },
     {
         'path': repo_path,
