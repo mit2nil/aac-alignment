@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import os, sys
+import os, sys, shutil
 import logging
 import requests
 import base64
@@ -20,6 +20,11 @@ logging.basicConfig(
 )
 
 def drop_graph(dataset, graph):
+
+    datadir = os.path.join(os.environ['AAC_ROOT'],"aac-repos",graph)
+    print "Deleting dir: ", datadir 
+    shutil.rmtree(datadir,ignore_errors=True) 
+
     url = '%s/%s/update' % (FUSEKI_URL, dataset)
     data = {}
     data['update'] = 'drop graph<%s%s>' % (GRAPH_BASE_URL, graph)
