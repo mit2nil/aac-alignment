@@ -89,7 +89,7 @@ REPO_CONFIG = [
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
         'context_uri': context_uri,
         'model_file': 'WAM_AAC_Dimensions-model.ttl',
-        'input_file': 'WAM_XMLExport_AAC_Dimensions.xml',
+        'input_file': 'WAM_XMLExport_AAC_Dimensions_v2.xml',
         'input_file_type': 'xml',
         'output_file_name': 'WAM_AAC_Dimensions'
     },
