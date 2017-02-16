@@ -48,17 +48,6 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
-        'name': 'apiexhibitions_american',
-        'base_uri': base_uri,
-        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E5_Event1',
-        'context_uri': context_uri,
-        'model_file': 'apiexhibitions_american-model.ttl',
-        'input_file': 'apiexhibitions_american.json',
-        'input_file_type': 'json',
-        'output_file_name': 'apiexhibitions_american'
-    },
-    {
-        'path': repo_path,
         'name': 'apiobjconxrefs_american',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
@@ -89,17 +78,6 @@ REPO_CONFIG = [
         'input_file': 'apiobjects_american.json',
         'input_file_type': 'json',
         'output_file_name': 'apiobjects_american'
-    },
-    {
-        'path': repo_path,
-        'name': 'apiobjexhxrefs_american',
-        'base_uri': base_uri,
-        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
-        'context_uri': context_uri,
-        'model_file': 'apiobjexhxrefs_american-model.ttl',
-        'input_file': 'apiobjexhxrefs_american.json',
-        'input_file_type': 'json',
-        'output_file_name': 'apiobjexhxrefs_american'
     },
     {
         'path': repo_path,
