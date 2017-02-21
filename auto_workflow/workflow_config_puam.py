@@ -114,5 +114,27 @@ REPO_CONFIG = [
         'input_file_type': 'json',
         'output_file_name': 'apiobjtitlexrefs_american-unknown_title',
         'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
+    },
+    {
+        'path': repo_path,
+        'name': 'apiobjgeograph_american',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'apiobjgeograph_american-model.ttl',
+        'input_file': 'apiobjgeograph_american.json',
+        'input_file_type': 'json',
+        'output_file_name': 'apiobjgeograph_american',
+    },
+    {
+        'path': repo_path,
+        'name': 'apiobjmediaxrefs_american',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'apiobjmediaxrefs_american-model.ttl',
+        'input_file': 'apiobjmediaxrefs_american.json',
+        'input_file_type': 'json',
+        'output_file_name': 'apiobjmediaxrefs_american',
     }
 ]
