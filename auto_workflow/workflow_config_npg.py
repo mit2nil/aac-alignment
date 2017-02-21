@@ -46,7 +46,7 @@ REPO_CONFIG = [
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
         'context_uri': context_uri,
-        'model_file': 'NPGDimsParsedUpdate2May-model.ttl',
+        'model_file': 'NPGDims-model.ttl',
         'input_file': 'NPGDimsParsedUpdate2May.csv',
         'output_file_name': 'NPGDimsParsedUpdate2May'
     },
