@@ -48,6 +48,17 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
+        'name': 'apiconuris',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+        'context_uri': context_uri,
+        'model_file': 'apiconuris-model.ttl',
+        'input_file': 'apiconuris.json',
+        'input_file_type': 'json',
+        'output_file_name': 'apiconuris'
+    },
+    {
+        'path': repo_path,
         'name': 'apiobjconxrefs_american',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
@@ -136,5 +147,16 @@ REPO_CONFIG = [
         'input_file': 'apiobjmediaxrefs_american.json',
         'input_file_type': 'json',
         'output_file_name': 'apiobjmediaxrefs_american',
+    },
+    {
+        'path': repo_path,
+        'name': 'apiobjtermsxrefs_american',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'apiobjtermsxrefs_american-model.ttl',
+        'input_file': 'apiobjtermsxrefs_american.json',
+        'input_file_type': 'json',
+        'output_file_name': 'apiobjtermsxrefs_american',
     }
 ]
