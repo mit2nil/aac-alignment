@@ -92,17 +92,17 @@ REPO_CONFIG = [
         'output_file_name': 'WebConGeographyDeath',
         'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
-    #{
-     #   'path': repo_path,
-     #   'name': 'WebConstituents_institution_view',
-     #   'base_uri': base_uri,
-     #   'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
-     #   'context_uri': context_uri,
-     #   'model_file': 'WebConstituents_institution_view-model.ttl',
-     #   'input_file': 'WebConstituents_institution_view.csv',
-     #   'input_file_type': 'csv',
-     #   'output_file_name': 'WebConstituents_institution_view'
-    #},
+    {
+        'path': repo_path,
+        'name': 'WebConstituents_institution_view',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+        'context_uri': context_uri,
+        'model_file': 'WebConstituents_institution_view-model.ttl',
+        'input_file': 'WebConstituents_institution_view.csv',
+        'input_file_type': 'csv',
+        'output_file_name': 'WebConstituents_institution_view'
+    },
     {
         'path': repo_path,
         'name': 'WebConstituents_person_view',
