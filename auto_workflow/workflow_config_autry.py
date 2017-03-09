@@ -75,7 +75,7 @@ REPO_CONFIG = [
        'path': repo_path,
        'name': 'AutryPublications',
        'base_uri': base_uri,
-       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E31_Document1',
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
        'context_uri': context_uri,
        'model_file': 'AutryPublications-model.ttl',
        'input_file': 'AutryPublications.csv',
