@@ -22,17 +22,17 @@ REPO_CONFIG = [
         'input_file_type': 'csv',
         'output_file_name': 'WebArtistBio'
     },
-    {
-        'path': repo_path,
-        'name': 'WebArtistBioImages',
-        'base_uri': base_uri,
-        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
-        'context_uri': context_uri,
-        'model_file': 'WebArtistBioImages-model.ttl',
-        'input_file': 'WebArtistBioImages.csv',
-        'input_file_type': 'csv',
-        'output_file_name': 'WebArtistBioImages'
-    },
+    #{
+     #   'path': repo_path,
+     #   'name': 'WebArtistBioImages',
+     #   'base_uri': base_uri,
+     #   'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
+     #   'context_uri': context_uri,
+     #   'model_file': 'WebArtistBioImages-model.ttl',
+     #   'input_file': 'WebArtistBioImages.csv',
+     #   'input_file_type': 'csv',
+     #   'output_file_name': 'WebArtistBioImages'
+    #},
     {
         'path': repo_path,
         'name': 'WebConAltNames',
