@@ -172,8 +172,8 @@ REPO_CONFIG = [
        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
        'context_uri': context_uri,
        'model_file': 'acm-media-model.ttl',
-       'input_file': 'ACMAA_Media_data_final.xlsx',
-       'input_file_type': 'xlsx',
+       'input_file': 'ACMAA_Media_data_final.csv',
+       'input_file_type': 'csv',
        'output_file_name': 'acm-media'
     },
 ]
