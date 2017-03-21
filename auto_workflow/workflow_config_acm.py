@@ -165,5 +165,16 @@ REPO_CONFIG = [
        'input_file_type': 'xml',
        'output_file_name': 'acm-objects7'
     },
+    {
+       'path': repo_path,
+       'name': 'acm-media',
+       'base_uri': base_uri,
+       'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+       'context_uri': context_uri,
+       'model_file': 'acm-media-model.ttl',
+       'input_file': 'ACMAA_Media_data_final.xlsx',
+       'input_file_type': 'xlsx',
+       'output_file_name': 'acm-media'
+    },
 ]
   
