@@ -51,9 +51,10 @@ REPO_CONFIG = [
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E39_Actor1',
         'context_uri': context_uri,
         'model_file': 'Constituents_people-model.ttl',
-        'input_file': 'Constituents.csv',
-        'input_file_type': 'csv',
+        'input_file': 'Constituents.json',
+        'input_file_type': 'jsonlines',
         'output_file_name': 'Constituents_people',
+        'num_partitions': 50,
         'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
