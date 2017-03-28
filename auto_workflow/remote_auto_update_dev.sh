@@ -61,9 +61,8 @@ spark-submit --archives $AAC_ROOT/aac-dependencies/karma.zip --py-files $AAC_ROO
 --num-executors 1 \
 --executor-cores 1 \
 --driver-class-path $AAC_ROOT/aac-softwares/Web-Karma/karma-spark/target/karma-spark-0.0.1-SNAPSHOT-shaded.jar \
-auto_workflow.py
-#custom_workflow.py \
-#"/opt/aac-repos/cbm/CBMAA_Roles/LOD CBMAA Constituents.csv" /opt/aac-out/
+auto_workflow.py $CONFIG_FILE
+#custom_workflow.py "/opt/aac-repos/cbm/CBMAA_Roles/LOD CBMAA Constituents.csv" /opt/aac-out/
 
 if [ $? -eq 0 ]
 then
