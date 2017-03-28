@@ -19,6 +19,7 @@ REPO_CONFIG = [
         'model_file': 'CBMAA_Constituents-model.ttl',
         'input_file': 'LOD CBMAA Constituents.csv',
         'input_file_type': 'csv',
+        
         'output_file_name': 'CBMAA_Constituents'
     },
     {
@@ -66,7 +67,6 @@ REPO_CONFIG = [
         'input_file': 'LOD CBMAA Image URLs_with_header.csv',
         'input_file_type': 'csv',
         'output_file_name': 'CBMAA_URLs',
-        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
         'path': repo_path,
@@ -78,7 +78,6 @@ REPO_CONFIG = [
         'input_file': 'LOD CBMAA Constituents.csv',
         'input_file_type': 'csv',
         'output_file_name': 'CBMAA_Roles',
-        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
         'path': repo_path,
