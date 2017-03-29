@@ -59,6 +59,18 @@ REPO_CONFIG = [
     },
     {
         'path': repo_path,
+        'name': 'CBMAA_UnknownTitles',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'CBMAA_UnknownTitles-model.ttl',
+        'input_file': 'LOD CBMAA Titles.csv',
+        'input_file_type': 'csv',
+        'output_file_name': 'CBMAA_UnknownTitles',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
+    },
+    {
+        'path': repo_path,
         'name': 'CBMAA_URLs',
         'base_uri': base_uri,
         'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
@@ -123,6 +135,18 @@ REPO_CONFIG = [
         'input_file': 'LOD PG Titles.csv',
         'input_file_type': 'csv',
         'output_file_name': 'PG_Titles',
+        'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
+    },
+    {
+        'path': repo_path,
+        'name': 'PG_UnknownTitles',
+        'base_uri': base_uri,
+        'rdf_root_uri': 'http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1',
+        'context_uri': context_uri,
+        'model_file': 'PG_UnknownTitles-model.ttl',
+        'input_file': 'LOD PG Titles.csv',
+        'input_file_type': 'csv',
+        'output_file_name': 'PG_UnknownTitles',
         'additional_settings':{'rdf.generation.selection':'DEFAULT_TEST'}
     },
     {
